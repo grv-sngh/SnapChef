@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // MongoDB connection
-mongoose.connect("mongodb+srv://root:root@cluster0.lsejrc8.mongodb.net/snapchef?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://root:root@cluster0.lsejrc8.mongodb.net/portfolio.image?retryWrites=true&w=majority&appName=Cluster0")
 .then(() => console.log('MongoDB connected'))
 .catch(err => console.log(err));
 
